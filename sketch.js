@@ -19,7 +19,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
   background(0);
   imageMode(CENTER);
 }
@@ -31,7 +31,7 @@ function mouseClicked() {
   let randomIndex = floor(random(imgs.length));
   
   applyFilter(randomFilter); // Apply the filter
-  image(imgs[randomIndex], random(400), random(400));
+  image(imgs[randomIndex], random(600), random(600));
 }
 
 function applyFilter(filterName) {
