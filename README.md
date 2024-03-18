@@ -13,3 +13,4 @@
 - with some trial and error it gave me the idea to use ‘case’, ‘break’, and ‘default’, it also simplified my code with the switch function so that the code was more concise than the numerous ‘if’ statements i had previously
 - after running it a couple of times i realised that i didn't like what the opaque filter did to the images and composition so i removed it entirely to hopefully create a better product
 - i ran into an issue with my github page as there was a black box displaying in the corner of my sketch that isnt there inside my editing software preview, i tried to remove the background to see if that helped but it didn't see to resolve the issue
+- after deleting and reuploading my whole repository a lot of the issues i was having seemed to be fixed, it's a bit of an unorthodox solution but it seemed to work
