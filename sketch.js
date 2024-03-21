@@ -29,6 +29,7 @@ function draw() {}
 function mouseClicked() {
   let randomFilter = random(filters);
   let randomIndex = floor(random(imgs.length));
+background(59, 25, 30)
   
   applyFilter(randomFilter); // Apply the filter
   image(imgs[randomIndex], random(windowWidth), random(windowHeight));
