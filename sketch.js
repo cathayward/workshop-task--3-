@@ -20,7 +20,6 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(59, 25, 30);
   imageMode(CENTER);
 }
 
@@ -29,10 +28,9 @@ function draw() {}
 function mouseClicked() {
   let randomFilter = random(filters);
   let randomIndex = floor(random(imgs.length));
-background(59, 25, 30)
   
   applyFilter(randomFilter); // Apply the filter
-  image(imgs[randomIndex], random(windowWidth), random(windowHeight));
+  image(imgs[randomIndex], random(0, windowWidth), random(0, windowHeight));
 }
 
 function applyFilter(filterName) {
@@ -61,6 +59,3 @@ function applyFilter(filterName) {
   }
 }
 
-function windowResized(){
-	resizeCanvas(windowWidth, windowHeight)
-}
